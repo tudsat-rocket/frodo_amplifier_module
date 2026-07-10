@@ -1,5 +1,7 @@
-# Rapid Sensor Board
+# Sensor Board
 this module is meant to be a general-purpose amplifier which is going to be used for all analogue sensors which will be in the rocket, those include the WIKA pressure sensors as well as the fancy-fins strain gauges.
+
+Note: This description might need to be updated for hardware revision 2.
 
 ## Description
 The main function of the module is to amplify signals with low voltage levels that are too small to be useful for our ADCs. Therefore the board has two sides with solder pads, one to connect to the IO board and one to connect to a sensor. The layout is designed in a way, that the sensor side is compatible with the WIKA TPR-Flex PCBs.
